@@ -1,0 +1,5 @@
+https://www.cryptocompare.com/cryptopian/api-keys
+API-ключ: 41523185612429dbd84d2355f9712fdfce3a08200e301dea5fb10c23c17e4233
+
+GET:
+https://min-api.cryptocompare.com/data/price?fsym=BTC&tsyms=USD,EUR
