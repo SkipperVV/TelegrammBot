@@ -56,7 +56,7 @@ def convert(message: telebot.types.Message):
         base, quote, amount = values
         amount_float = float(amount)
         rate = CryptoConverter.convert(values)
-        convertion_result = amount_float * rate
+        convertion_result = round((amount_float * rate), 2)
     except ConversionException as e:
         bot.reply_to(message, e)
     except Exception as e:
